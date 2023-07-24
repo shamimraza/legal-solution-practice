@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data theme="light">
 
 <head>
     <meta charset="UTF-8">
@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/64006956ca.js" crossorigin="anonymous"></script>
     <!-- tailwind css -->
     <script>
         tailwind.config = {
@@ -25,15 +27,42 @@
         }
     </script>
     <style>
-        .font-poppins{
+        .font-poppins {
             font-family: 'Poppins', sans-serif;
+        }
+
+        .a {
+            text-decoration: none;
         }
     </style>
 </head>
 
 <body class="font-poppins">
     <header>
-        
+        <section class="w-11/12 mx-auto">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="flex items-center">
+                    <img class="w-11" src="./images/business.png" alt="">
+                    <p class="text-4xl font-extrabold text-[#414040]">Justice</p>
+                  </div>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-[#707070]">
+                        <li><a>Home</a></li>
+                        <li><a>Services <i class="fa-solid fa-angle-right"></i></a></li>
+                        <li><a>Cases <i class="fa-solid fa-angle-right"></i></a></li>
+                        <li><a>Blog <i class="fa-solid fa-angle-right"></i></a></li>
+                        <li><a>Contact Us <i class="fa-solid fa-angle-right"></i></a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn bg-[#B68C5A] text-white font-semibold">Free Consultation</a>
+                </div>
+            </div>
+            <!-- banner section -->
+            
+        </section>
     </header>
     <main></main>
     <footer></footer>
